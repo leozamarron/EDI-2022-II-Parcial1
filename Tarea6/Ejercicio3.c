@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define N 10
 
-void calcularMayorMenor(float *mayor, float *menor);
+void calcularMayorMenor(float *M, float *m);
 
 int main()
 {
