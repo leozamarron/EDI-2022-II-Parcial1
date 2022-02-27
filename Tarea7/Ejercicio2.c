@@ -20,7 +20,7 @@ int main()
 
     printf("La suma de las posiciones pares es: %d\n",sumaPosicionesPares);
     printf("La suma de los numero pares es: %d\n",sumaPares);
-    printf("La suma total sin sobrepasar 100 es: %d\n El total de numeros sumados son: %d\n", suma, contador);
+    printf("La suma total sin sobrepasar 100 es: %d\nEl total de numeros sumados son: %d\n", suma, contador);
 
     
     return 0;
@@ -75,7 +75,7 @@ void capturarDatos(int *ent)
     while (ent[i] < 0 || ent[i] > 100)
     {
         printf("Error, valor no valido");
-        printf("Dame un numero entre el 1 y 100: ");
+        printf("\nDame un numero entre el 1 y 100: ");
         scanf("%d", &ent[i]);
     }
     }
