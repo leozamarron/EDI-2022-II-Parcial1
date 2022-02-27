@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define L 2 // la longitud del arreglo
+#define L 4 // la longitud del arreglo
 
 void capturarDatos(int *ent);
 int imprimeSumaPosicionesPares(int *ent);
@@ -20,7 +20,7 @@ int main()
 
     printf("La suma de las posiciones pares es: %d\n",sumaPosicionesPares);
     printf("La suma de los numero pares es: %d\n",sumaPares);
-    printf("La suma total es: %d el total de numeros sumados son: %d\n", suma, contador);
+    printf("La suma total sin sobrepasar 100 es: %d\n El total de numeros sumados son: %d\n", suma, contador);
 
     
     return 0;
@@ -35,7 +35,7 @@ void imprimeSuma(int *ent, int *suma, int *contador)
         if(*suma > 100)
         {
             *suma = *suma - ent[i];
-            *contador = 1 - *contador;
+            *contador = *contador - 1;
         }
     }
     
