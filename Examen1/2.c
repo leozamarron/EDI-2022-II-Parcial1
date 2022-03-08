@@ -41,6 +41,21 @@ void calculaCadena(char *s)
         case 'u':
             s[i] = 'U';
             break;
+        case 'A':
+            s[i] = 'a';
+            break;
+        case 'E':
+            s[i] = 'e';
+            break;
+        case 'I':
+            s[i] = 'i';
+            break;
+        case 'O':
+            s[i] = 'o';
+            break;
+        case 'U':
+            s[i] = 'u';
+            break;
         }
 
     }

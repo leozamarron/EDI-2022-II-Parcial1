@@ -36,7 +36,7 @@ int imprimeNumeroC(char *string, char caracter)
 void pideCaracter(char *C)
 {
     printf("Dame un caracter: ");
-    scanf(" %s", C);
+    scanf(" %c", C);
 }
 
 void pideCadena(char *S)
