@@ -23,7 +23,7 @@ void calculaMayorMenor(int *a, int *b, int *c)
 {
     if (*a > *b)
     {
-        *a = *b;
+        *b = *b*2;
     }
     else if (*a < *b)
     {
